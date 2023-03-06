@@ -7,13 +7,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
-
 import java.time.Duration;
 import java.util.List;
 import java.util.Random;
+
 
 public class StepImplementation extends BaseTest{
 
@@ -21,6 +19,8 @@ public class StepImplementation extends BaseTest{
 
     String gidis;
     String gidisKontrol;
+
+   //public static ResourceBundle ConfigurationProp = ReadProperties.readProp("Configuration.properties");
 
     public StepImplementation() {
         wait = new FluentWait<WebDriver>(driver);
@@ -82,21 +82,19 @@ public class StepImplementation extends BaseTest{
 
     @Step("xpath li <element> elementin uçuş numarası kaydedilir")
     public void saveNumber(String element){
-        gidis =driver.findElement(By.xpath(element)).toString();
+        gidis =driver.findElement(By.xpath(element)).getText();
         System.out.println(gidis);
     }
 
     @Step("bilet numarası xpath li <element> element verilerek kontrol edilir")
     public void ticketControl(String element){
-        gidisKontrol=driver.findElement(By.xpath(element)).toString();
+        gidisKontrol=driver.findElement(By.xpath(element)).getText();
         if(gidisKontrol.contains(gidis)){
             System.out.println("bilet numarası doğru");
         }else {
             System.out.println("bilet numarası hatalı");
         }
     }
-
-
 
 }
 
