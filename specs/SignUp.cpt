@@ -1,0 +1,14 @@
+Created by testinium on 05-Mar-23
+
+This is a concept file with following syntax for each concept.
+#Kullanıcı adı <username> ve şifre bilgisi <password> ile login işlemini tamamla.
+*Css li "li[class='login']" elemente tıkla
+*"3" saniye kadar bekle
+*Css li "a[class='sign-up login-to-register']" elemente tıkla
+*"3" saniye kadar bekle
+*Css li "input[name='email']" elementi bul ve <username> değeri yaz
+*"3" saniye kadar bekle
+*Css li "input[name='password']" elementi bul ve <password> değeri yaz
+*"3" saniye kadar bekle
+*Css li "button[class='register register-button']" elemente tıkla
+*"5" saniye kadar bekle

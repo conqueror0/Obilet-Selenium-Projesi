@@ -1,0 +1,5 @@
+Created by testinium on 06-Mar-23
+
+This is a concept file with following syntax for each concept.
+#Alınan bilet ile sepetteki bilet kontrol edilir
+*bilet numarası xpath li "(//div[@class='partner-info']/strong)[1]" element verilerek kontrol edilir

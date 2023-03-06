@@ -1,0 +1,21 @@
+
+
+
+#Uçak bileti gidiş dönüş araması yapılır
+*"5" saniye kadar bekle
+*Css li "a[data-event-action='Flight']" elemente tıkla
+*"3" saniye kadar bekle
+*Id li "destination-input" elemente tıkla
+*"2" saniye kadar bekle
+*Id li "origin-input" elemente tıkla
+*"3" saniye kadar bekle
+*xpath li "//*[@id='one-way']/div" elemente tıkla
+*"1" saniye kadar bekle
+*Id li "departure-input" elemente tıkla
+*"1" saniye kadar bekle
+*xpath li "//table[@class='table-condensed']//td[5]//button[@data-date='2023-03-31']" elemente tıkla
+*"3" saniye kadar bekle
+*Id li "search-button" elemente tıkla
+*"20" saniye kadar bekle
+*xpath'li "//*[@id='tns1-mw']" elementi bul alanını kontrol et
+*"2" saniye kadar bekle

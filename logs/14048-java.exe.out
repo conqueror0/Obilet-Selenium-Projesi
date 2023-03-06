@@ -1,0 +1,80 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1602milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1602"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62828"}
+{"logLevel":"info","message":"Listening on port:62828"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.clickElementByXpath' and 'com.obilet.StepImplementation.clickElementByXpath'"}
+{"logLevel":"debug","message":"Found xpath li {} elemente t?kla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.click?sEnabled' and 'com.obilet.StepImplementation.click?sEnabled'"}
+{"logLevel":"debug","message":"Found xpath li {} element var ise t?klan?r in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.textAreaControl' and 'com.obilet.StepImplementation.textAreaControl'"}
+{"logLevel":"debug","message":"Found xpath'li {} elementi bul alan?n? kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.clickElementById' and 'com.obilet.StepImplementation.clickElementById'"}
+{"logLevel":"debug","message":"Found Id li {} elemente t?kla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.clickRandomXpath' and 'com.obilet.StepImplementation.clickRandomXpath'"}
+{"logLevel":"debug","message":"Found xpath'li {} liste içerisinden rastgele seç ve t?kla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.saveNumber' and 'com.obilet.StepImplementation.saveNumber'"}
+{"logLevel":"debug","message":"Found xpath li {} elementin uçu? numaras? kaydedilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.sendKeysByCss' and 'com.obilet.StepImplementation.sendKeysByCss'"}
+{"logLevel":"debug","message":"Found Css li {} elementi bul ve {} de?eri yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.clickElementByCss' and 'com.obilet.StepImplementation.clickElementByCss'"}
+{"logLevel":"debug","message":"Found Css li {} elemente t?kla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.waitElement' and 'com.obilet.StepImplementation.waitElement'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\txpath li {} elementin uçu? numaras? kaydedilir : public void saveNumber(String element)"}
+{"logLevel":"debug","message":"\txpath li {} element var ise t?klan?r : public boolean click?sEnabled(String element)"}
+{"logLevel":"debug","message":"\tCss li {} elemente t?kla : public void clickElementByCss(String element)"}
+{"logLevel":"debug","message":"\tCss li {} elementi bul ve {} de?eri yaz : public void sendKeysByCss(String element, String key)"}
+{"logLevel":"debug","message":"\txpath li {} elemente t?kla : public void clickElementByXpath(String element)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitElement(?nt saniye) throws InterruptedException"}
+{"logLevel":"debug","message":"\txpath'li {} elementi bul alan?n? kontrol et : public void textAreaControl(String element)"}
+{"logLevel":"debug","message":"\tId li {} elemente t?kla : public void clickElementById(String element)"}
+{"logLevel":"debug","message":"\txpath'li {} liste içerisinden rastgele seç ve t?kla : public void clickRandomXpath(String xpath)"}
+Starting ChromeDriver 110.0.5481.30 (aedb656755c469651f01505a4f15e153fc606a1e-refs/branch-heads/5481@{#191}) on port 8031
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1678104438.603][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Mar 06, 2023 3:07:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Css li {} elemente t?kla' using 'class com.obilet.StepImplementation.clickElementByCss"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente t?kla' using 'class com.obilet.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente t?kla' using 'class com.obilet.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'xpath li {} elemente t?kla' using 'class com.obilet.StepImplementation.clickElementByXpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente t?kla' using 'class com.obilet.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'xpath li {} elemente t?kla' using 'class com.obilet.StepImplementation.clickElementByXpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente t?kla' using 'class com.obilet.StepImplementation.clickElementById"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'xpath'li {} elementi bul alan?n? kontrol et' using 'class com.obilet.StepImplementation.textAreaControl"}
+Sayfa baglantisi dogru
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'xpath'li {} liste içerisinden rastgele seç ve t?kla' using 'class com.obilet.StepImplementation.clickRandomXpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'xpath li {} element var ise t?klan?r' using 'class com.obilet.StepImplementation.click?sEnabled"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'xpath li {} elemente t?kla' using 'class com.obilet.StepImplementation.clickElementByXpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'xpath li {} elementin uçu? numaras? kaydedilir' using 'class com.obilet.StepImplementation.saveNumber"}
+[[ChromeDriver: chrome on WINDOWS (17aadc4f87eca15fe56356b71ad5f900)] -> xpath: //li[@class='item journey one-way available']]
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.obilet.StepImplementation.waitElement"}
+{"logLevel":"debug","message":"Executing 'xpath'li {} liste içerisinden rastgele seç ve t?kla' using 'class com.obilet.StepImplementation.clickRandomXpath"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

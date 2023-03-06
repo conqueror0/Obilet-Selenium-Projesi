@@ -1,0 +1,20 @@
+Created by testinium on 06-Mar-23
+
+This is a concept file with following syntax for each concept.
+#Eco uçuş gidiş dönüş bileti seçilir
+*xpath'li "//div[@class='journey row']" liste içerisinden rastgele seç ve tıkla
+*"3" saniye kadar bekle
+*xpath li "//*[contains(text(),'Ecofly (EF)')]" element var ise tıklanır
+*"2" saniye kadar bekle
+*xpath li "(//button[@class='details'])[1]" elemente tıkla
+*"2" saniye kadar bekle
+*xpath li "//li[@class='item journey one-way available']" elementin uçuş numarası kaydedilir
+*"3" saniye kadar bekle
+*xpath li "//*[@id='main']/div[11]/div/div[1]/button" elemente tıkla
+*"2" saniye kadar bekle
+
+//dönüş bileti
+*xpath'li "//ul[@id='return-journeys']//li" liste içerisinden rastgele seç ve tıkla
+*"3" saniye kadar bekle
+*xpath li "//*[contains(text(),'Ecofly (EF)')]" element var ise tıklanır
+*"30" saniye kadar bekle
